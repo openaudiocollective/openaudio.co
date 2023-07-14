@@ -1,6 +1,6 @@
 {
-  "name": "next-js-boilerplate",
-  "version": "3.12.0",
+  "name": "openaudio.co",
+  "version": "0.0.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -117,8 +117,16 @@
         }
       ],
       "@semantic-release/git",
-      "@semantic-release/github"
+      "@semantic-release/github",
+      [
+        "@qiwi/semantic-release-gh-pages-plugin",
+        {
+          "msg": "gh-pages updated: <%= nextRelease.gitTag %>",
+          "branch": "gh-pages",
+          "src": "out"
+        }
+      ]
     ]
   },
-  "author": "Ixartz (https://github.com/ixartz)"
+  "author": "Open Audio Collective"
 }
