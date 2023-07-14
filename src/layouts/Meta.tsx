@@ -46,6 +46,17 @@ const Meta = (props: IMetaProps) => {
           href={`${router.basePath}/favicon.ico`}
           key="favicon"
         />
+        <link
+          rel="icon"
+          href={`${router.basePath}/android-chrome-192x192`}
+          key="android-chrome-192x192"
+        />
+        <link
+          rel="icon"
+          href={`${router.basePath}/android-chrome-512x512`}
+          key="android-chrome-512x512"
+        />
+        <link rel="manifest" href={`${router.basePath}/site.webmanifest`} />
       </Head>
       <NextSeo
         title={props.title}
