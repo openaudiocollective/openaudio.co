@@ -1,3 +1,22 @@
+# 1.0.0 (2023-07-14)
+
+
+### Bug Fixes
+
+* npm i @qiwi/semantic-release-gh-pages-plugin -D ([e33a7d6](https://github.com/openaudiocollective/openaudio.co/commit/e33a7d6a4f1342a7a90d0d1f59922c9394a04c05))
+* unoptimized images since we are exporting static and fix the url in the sitemap ([493b4b7](https://github.com/openaudiocollective/openaudio.co/commit/493b4b74e1a2696f3cab2ccee219c81e515afc96))
+* workflow for release ([f46505d](https://github.com/openaudiocollective/openaudio.co/commit/f46505dfc3d8c844f567a834b2ab88dc75a35dd3))
+
+
+### Features
+
+* added semantic-release to gh pages and updated readme ([c813683](https://github.com/openaudiocollective/openaudio.co/commit/c8136835d1a0ecfd41201b85fb5c948ec45cd481))
+* clean homepage with the logo redirecting to github org ([ea4f612](https://github.com/openaudiocollective/openaudio.co/commit/ea4f612e1116702246cd5317f40a4f9fef719b19))
+* favicon ([f2de34f](https://github.com/openaudiocollective/openaudio.co/commit/f2de34f062cf1c9fe7c0c2927f7c03d27b48c498))
+* initial commit ([82f1d3a](https://github.com/openaudiocollective/openaudio.co/commit/82f1d3a4bdbd9152d855fcf687c7a4cfad2d5c2e))
+* simple tests ([0653a5a](https://github.com/openaudiocollective/openaudio.co/commit/0653a5ae3b4237d68f7e058413dce3d8d56a004f))
+* sitemap config ([540f6b0](https://github.com/openaudiocollective/openaudio.co/commit/540f6b0d4d1d9363f448e6191ae81f94b1d569de))
+
 # [3.12.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.11.0...v3.12.0) (2023-07-13)
 
 
