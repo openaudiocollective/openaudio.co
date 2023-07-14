@@ -17,14 +17,14 @@ const Index = () => {
         />
       }
     >
+      <h1 className="hidden">Open Audio Collective</h1>
       <Link href="https://github.com/openaudiocollective">
         <Image
           alt="OpenAudioCollective Logo with the slogan: Audio Networking for Everyone. Click the Logo to see the Github Organization page."
           src={`${router.basePath}/logo.svg`}
           height={429}
           width={315}
-          objectFit="contain"
-          className="h-auto w-full"
+          className="h-auto w-full object-contain"
         />
       </Link>
     </Main>
