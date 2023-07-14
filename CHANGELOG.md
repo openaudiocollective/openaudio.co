@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/openaudiocollective/openaudio.co/compare/v1.0.0...v1.0.1) (2023-07-14)
+
+
+### Bug Fixes
+
+* removed CI from the release workflow and removed persist-credentials from the checkout actions ([fabad9a](https://github.com/openaudiocollective/openaudio.co/commit/fabad9a6743306e4a2a790e868f236871f6e4e43))
+* returned ci to the workflow ([89eebac](https://github.com/openaudiocollective/openaudio.co/commit/89eebaca1dace0e58b7b201bd9fbfaba2cce67f6))
+
 # 1.0.0 (2023-07-14)
 
 
