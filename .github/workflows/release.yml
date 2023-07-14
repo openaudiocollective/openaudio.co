@@ -28,6 +28,9 @@ jobs:
           cache: "npm"
       - run: HUSKY=0 npm ci
 
+      - name: Building static files
+        run: npm run build-prod
+
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
