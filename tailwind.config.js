@@ -14,6 +14,9 @@ module.exports = {
       '5xl': '3rem',
       '6xl': '4rem',
     },
+    colors: {
+      black: '#221e1f',
+    },
     extend: {
       colors: {
         gray: {
